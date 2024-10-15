@@ -5,9 +5,7 @@ int main() {
 	int* p = array;
 	for (i = 0;i < 10;i++)
 	{
-		printf("%d", *p);
-		p++;
-
+		printf("%p\n", &array[i]);//%p用于打印地址
 	}
 
 	return 0;
